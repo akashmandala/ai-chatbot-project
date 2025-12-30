@@ -1,11 +1,12 @@
 # AI Chatbot Project
 
-A simple, interactive AI chatbot powered by OpenAI's GPT models. This project demonstrates how to integrate the OpenAI API into a Python-based command-line interface.
+A modern AI chatbot powered by OpenAI's GPT models, featuring both a Command Line Interface (CLI) and a beautiful Web UI built with Streamlit.
 
 ## Features
-- Interactive CLI for real-time conversation.
-- Maintains conversation context.
-- Easy to configure and run.
+- **Web UI**: A clean, interactive web interface using Streamlit.
+- **CLI Mode**: A simple command-line interface for quick interactions.
+- **Streaming Responses**: Real-time message streaming in the Web UI.
+- **Context Aware**: Maintains conversation history for coherent interactions.
 
 ## Prerequisites
 - Python 3.x
@@ -30,7 +31,15 @@ A simple, interactive AI chatbot powered by OpenAI's GPT models. This project de
    ```
 
 ## Usage
-Run the chatbot with:
+
+### Option 1: Web UI (Recommended)
+Run the Streamlit application:
+```bash
+streamlit run app.py
+```
+
+### Option 2: CLI Mode
+Run the terminal-based chatbot:
 ```bash
 python main.py
 ```
